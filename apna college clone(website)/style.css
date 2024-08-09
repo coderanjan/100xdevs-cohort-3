@@ -1,0 +1,433 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.nav-logo>img{
+    width:95px;
+    height:45px
+}
+
+.nav{
+    padding-left: 80px;
+    padding-right:80px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.nav-text1, .nav-text2, .nav-text3 {
+    color: #1A2930;
+    font-size:18px;
+    font-weight: 100px;
+}
+
+.nav-button1{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    background-color: #6674CC;
+    border: 0px;
+    color:#FFFFFF
+    
+    
+
+}
+
+.nav-button2{
+    font-size: 16px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6674CC;
+    border:2px solid #6674CC;
+    border-radius:3px;
+}
+
+.learn-and-become{
+    background-image: url('https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/f068200b0c2e168d3d5f8dd7cddd575e.jpeg');
+    width:100%;
+    height: 500px;
+    
+}
+.learn-and-become{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.learn-and-become-image>img{
+    width: 410px;
+    height:420px
+}
+
+.learn-and-become{
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.learn-and-become-heading{
+    font-size: 49px;
+    padding: 20px;
+}
+
+.auto{
+    padding: 20px;
+}
+
+.auto-type{
+    color:#262626;
+    font-size: 25px;
+    font-weight: 5px;
+}
+
+#learn-and-become-heading2, #learn-and-become-heading3 {
+    color:#6674CC;
+}
+
+.learn-and-become-description-button{
+    margin:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #6674CC;
+    color:white;
+    font-size: 22px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.learn-and-become{
+    padding-right: 150px;
+
+}
+
+.learnworlds-divider{
+    background-color: #3242ba;
+}
+
+.coding-community>svg{
+    width:100%;
+    height:250px;
+}
+
+.fa-regular fa-heart{
+    color: red;
+}
+
+.batch{
+    /* background-color: #181A1B;  */
+    width:100%;
+    height: 300px;
+}
+
+.batch{
+    margin-top: 100px;
+}
+
+#batch-heading1{
+    padding-top:80px;
+    color:#6674CC;
+    font-size: 22px;
+    font-weight: 20px;
+    padding-bottom: 20px;
+}
+
+
+#batch-heading2{
+    color:#262626;
+    padding-bottom: 25px;
+}
+
+#batch-heading3{
+    color:#262626;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#batch-button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border:0px;
+    background-color: #6674cc;
+    font-size: 20px;
+    color: white;
+}
+
+.dream-job{
+    background-color: whitesmoke;
+    height:170px;
+    padding-top: 100px;
+}
+
+#dream-job-color{
+    color:#6674CC;
+
+    
+}
+
+.dream-job>h3>center{
+    font-size:28px
+}
+
+.company-image{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 205px 205px 205px 205px 205px 205px ;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.box>img{
+    width:100px;
+    height:80px;
+}
+
+.many-more{
+    background-color: whitesmoke;
+    padding-bottom: 100px;
+}
+
+
+.many-more>h3>center{
+    color:rgb(38, 38, 38);
+    font-size: 30px;
+}
+
+section{
+
+    background-color: whitesmoke;
+
+
+}
+
+hr{
+    color: red;
+}
+
+#selected-heading>center{
+    color: #6674CC;
+    padding-top: 60px;
+    font-weight: 30px;
+    font-size: 30px;
+}
+
+.selected-stuudent{
+    display:grid;
+    grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px;
+    grid-template-columns: 500px 500px;
+    justify-content: space-around;
+
+    padding-top: 20px;
+}
+
+.stud>img{
+    width:400px;
+    height:400px;
+}
+
+#selected-student-button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 24px;
+    padding-right:24px ;
+    color:white;
+    font-size: 22px;
+    background-color: #6674CC;
+    border:0px;
+    border-radius:16px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.misson-heading>center{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.mission-image>img{
+      width:100%;
+      height:500px;
+      padding-left: 50px;
+      padding-right:50px;
+}
+
+.mission-image{
+    padding-bottom:140px;
+}
+
+.auto-type1{
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.social-media{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 400px 400px 400px;
+    padding-top: 100px;
+    padding-left:100px
+    
+}
+
+.sm{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.fa-youtube{
+    padding-left: 10px;
+}
+
+.fa-brands, .sm{
+    padding-left: 35px;
+}
+
+.fa-brands{
+    padding-left: 50px;
+}
+
+.sm{
+    padding-bottom: 5px;
+}
+
+
+.footer{
+    display:grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 300px 300px 300px 300px;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.apna-college>img{
+    width:100px;
+    height:50px;
+    margin-bottom: 20PX;
+}
+
+.apna-college-color{
+    color:#6674CC;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#helpful-links-heading{
+    color:#6674CC;
+    padding-bottom: 20px;
+}
+
+.helpful-links-text{
+    color:#6674CC;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.helpful-links-text-shift{
+    padding-left: 10px;
+}
+
+.shifts{
+    padding-left: 27px;
+}
+
+.get-in-touch-heading{
+    font-size: 10px;
+    
+}
+
+#get-in-touch-text1{
+    padding-top: 25px;
+}
+
+
+.get-in-touch-box{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#connect-withus-heading{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.connect-with-is-text{
+    color: #3242ba;
+}
+
+.fa-brands {
+    padding-left: 7px;
+}
+
+.connect-with-is-text{
+    font-size: 19px;
+    padding-bottom: 6px;
+}
+
+.footer{
+    margin: 20px;
+
+}
+
+.abc>h6>center{
+    font-size: 20px;
+    padding-bottom: 100px;
+    
+}
+
+.coding-community{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 400px 400px 400px ;
+    background-color: #6674CC;
+    height:150px;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.coding-community-box>img{
+    width:60px;
+    height: 40px;
+}
+
+
+#h1-color{
+    background-color: #6674CC;
+    padding-top: 10px;
+    color: white;
+    margin-top: 40px;
+}
+
+
+.boxes>h3{
+    padding-left:50px;
+}
+
+.boxes>img{
+    margin-left:50px;
+}
+
+
+
+
+
+
